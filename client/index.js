@@ -378,9 +378,6 @@ blueJacket = {
 // 3. Update `jacket` property with `favorite` to true WITHOUT changing blueJacket properties
 
 
-
-
-
 /**
  * 🎬
  * The End

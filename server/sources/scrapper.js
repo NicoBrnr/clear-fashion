@@ -27,5 +27,6 @@ async function asyncForEach(array, callback) {
     return res
   };
   
+  scrape();
   
   module.exports = {scrape, asyncForEach}

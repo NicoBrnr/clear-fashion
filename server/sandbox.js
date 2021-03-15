@@ -1,6 +1,7 @@
 const scrapper = require('./sources/scrapper')
 const eshop = require('./brands.json');
 
+
 function sandbox(eshop) {
   try {
     console.log(`Browsing ${eshop.brand} source`);
@@ -31,6 +32,10 @@ const start = async () => {
   all_products = del_doublons(all_products)
   console.log('Number of scraped products: ' + all_products.length)
   console.log(all_products);
+  return all_products
 }
 
-start()
+// var products = start()
+
+
+module.exports = {start};
